@@ -2,32 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+table,
+th,
+td {
+    border: .0625rem solid black;
+    border-collapse: collapse;
+    text-align: center;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+input[type="number"] {
+    width: 1.875rem;
+    display: block;
+    outline: .0625rem solid rgb(83, 82, 82);
+    -moz-appearance: textfield;
+    appearance: textfield;
+    text-align: center;
+
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
+input[type="number"]:focus {
+    outline: 2px solid rgb(42, 37, 37);
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
 }
