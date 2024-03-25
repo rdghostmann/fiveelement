@@ -1,14 +1,12 @@
-// import SequenceView from "./components/SequenceView";
-import Test from "./components/Test";
+"use client";
+import SequenceView from "./components/SequenceView";
 
 
 export default function Home() {
 
-
   return (
     <>
-      {/* <SequenceView /> */}
-      <Test/>
+    <SequenceView/>
     </>
   );
 }

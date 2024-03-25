@@ -1,4 +1,4 @@
-import generateExcelData from "./generateExcelData";;
+import generateExcelData from "./src/lib/generateExcelData";;
 
 function downloadExcelFile(data) {
     const excelData = generateExcelData(data);
