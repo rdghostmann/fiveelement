@@ -13,6 +13,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" suppressHydrationWarning={true} className="bg-slate-300">
+      <Head>
+        <link rel="manifest" href="/manifest.json" />
+      </Head>
       <body className={inter.className}>
         <header className="mx-auto w-full py-2 bg-slate-500 sticky top-0 left-0 z-10 shadow-sm ">
           <h1 className="font-bold text-center text-xl text-white ">Seqence Generator</h1>
