@@ -13,13 +13,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" suppressHydrationWarning={true} className="bg-slate-300">
       <body className={inter.className}>
-        <header className="mx-auto w-full py-2 bg-slate-500 sticky top-0 left-0 z-10 shadow-sm ">
-          <h1 className="font-bold text-center text-xl text-white ">Seqence Generator</h1>
-        </header>
-        {children}
+              {children}
         <footer className="mx-auto w-full py-2 bg-slate-500 sticky top-0 left-0 z-10 shadow-sm">
-          <p className="text-center text-xs text-white ">Seqence Generator - Powered by <i>RdTech</i></p>
-          <p className="text-center text-xs text-white ">All Right Reserved 2024</p>
+          <p className="text-center text-xs text-white ">Seqence Generator - Powered by <i>SqManager</i></p>
         </footer>
       </body>
     </html>

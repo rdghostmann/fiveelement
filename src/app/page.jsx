@@ -1,12 +1,13 @@
 "use client";
-import SequenceView from "./components/SequenceView";
+
+import LoginForm from "./components/LoginForm";
 
 
 export default function Home() {
 
   return (
     <>
-    <SequenceView/>
+    <LoginForm />
     </>
   );
 }
