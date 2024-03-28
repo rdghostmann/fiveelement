@@ -14,7 +14,7 @@ const LoginForm = () => {
       localStorage.setItem('isAuthenticated', 'true');
       localStorage.setItem('username', username);
       localStorage.setItem('password', password);
-      router.push('/sequenceView');
+      router.push('/sequenceViewN9uYVzKXC7QfDqwMkvHwIRTG&modettsequenceMNGN9uYVzKXC7QfDqwMkvHwIRTG&mode');
     } else {
       alert('Invalid username or password');
     }
